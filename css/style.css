@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+.wrapper{
+    display: block;
+    position: relative;
+    margin: auto;
+    max-width: 900px;
+    min-height: 500px;
+    border: 1px solid gray;
+    height: 100%;
+    padding: 30px;
+}
+
+section{
+    display: block;
+    position: relative;
+    margin: 30px 0px;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+input{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[id*=list-inp-]{
+    border:none;
+}
+
+.no-pointer-events{
+    pointer-events: none;
+}
